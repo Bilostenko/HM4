@@ -1,0 +1,420 @@
+:root {
+    --btn-w: 210px;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #FBE4FF;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/*HEADER*/
+
+.header {
+    background-color: #243B93;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    height: 50px;
+}
+
+.navbar_list {
+    display: flex;
+    margin: 0 70px;
+    align-items: center;
+}
+
+.navbar_list li {
+    list-style: none;
+    width: 170px;
+    text-align: center;
+}
+
+.navbar_list li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*H2*/
+
+.booking {
+    height: 85px;
+    background-color: #BFF0FF;
+    align-items: center;
+    display: flex;
+}
+
+h2 {
+    margin: 0;
+    color: #202846;
+    font-size: 44px;
+    font-weight: 400;
+    font-style: italic;
+    width: 70%;
+    padding: 0 15%;
+}
+
+
+/*Page*/
+
+.card_wrapper {
+    width: 70%;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 27px;
+}
+
+/*LOCATION*/
+
+.choose_btn {
+    height: 57px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+
+}
+
+.choose_btn p {
+    margin: 0 auto;
+    font-size: 28px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.choose_btn svg {
+    margin-right: 15px;
+}
+
+/*Bakota*/
+
+.card {
+    background: linear-gradient(130deg, #ADCBD4, #00AEE5);
+    display: flex;
+    height: 300px;
+    padding: 0 50px;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 30px;
+}
+
+.card h3 {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 2px solid #fff;
+    height: 50px;
+    margin: 0 auto;
+    color: #353C57;
+}
+
+.card_content {
+    width: 90%;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.desc {
+    height: 205px;
+    background-color: #EDFBFF;
+    margin-top: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #202846;
+    font-size: 22px;
+    padding: 15px;
+}
+
+.card img {
+    height: 250px;
+    padding-top: 25px;
+}
+
+.btn_cursor {
+    cursor: pointer;
+}
+
+.btn {
+    position: absolute;
+    top: 240px;
+    left: 87%;
+    width: var(--btn-w);
+    height: 46px;
+    background-color: #243B93;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.btn:hover {
+    background-color: #EF075B
+}
+
+.card_btn:hover {
+    background-color: #EF075B
+}
+
+
+.card_btn {
+    position: absolute;
+    top: 240px;
+    left: 87%;
+    width: var(--btn-w);
+    height: 46px;
+    background-color: #243B93;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 5px;
+    box-sizing: border-box;
+
+}
+
+.card svg {
+    position: absolute;
+    top: 5px;
+    left: 96%;
+}
+
+.card:hover {
+    background: #2CBDEB;
+    box-shadow: 6px 6px 60px 0px #2CBDEB;
+
+}
+
+.card .card_btn :hover {
+    background-color: #EF075B;
+}
+
+.card:hover svg>path {
+    fill: #FFF500;
+}
+
+/*ARROW*/
+
+.arrow {
+    background-color: rgba(48, 12, 106, 0.3);
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 87%;
+    left: 83%;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+
+/*PERSONAL_ACCOUNT*/
+
+.info {
+    width: 100%;
+    height: 85px;
+    background: linear-gradient(90deg, #FFE601, #55D6FF);
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.info_wrapper {
+    width: 100%;
+    height: 659px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info_container {
+    display: flex;
+    width: 1318px;
+    height: 498px;
+    background: linear-gradient(180deg, #859EFF 0%, rgba(105, 255, 210, 0.5) 100%);
+}
+
+/* ava */
+.info_ava {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+
+}
+
+.info_ava>img {
+    width: 196px;
+    height: 184px;
+    padding-bottom: 45px;
+}
+
+.info_data {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+
+}
+
+.info_choose_ava {
+    background: #243B93;
+    border-radius: 30px;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 45px;
+    border-style: none;
+    width: 250px;
+    height: 50px;
+    color: white;
+}
+
+.info_ava_settings {
+    background: #EF075B;
+    border-radius: 30px;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 24px;
+    border-style: none;
+    width: 250px;
+    height: 50px;
+    color: white;
+}
+
+
+.info_btn {
+    color: #fff;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 24px;
+    background: #243B93;
+    border-radius: 30px;
+    width: 174px;
+    height: 50px;
+    margin-top: 19px;
+    border-style: none;
+}
+
+/* info */
+.info_line {
+    width: 712px;
+    background-color: #fff;
+    height: 2px;
+    margin: 8px 0px 8px 60px;
+}
+
+/* ------------CONTACTS-------- */
+.conntacts_main {
+    height: 85px;
+    background: linear-gradient(90deg, #54D6FF 0%, #FFE600 100%);
+    display: flex;
+    align-items: center;
+}
+
+.contacts_header {
+    color: #243B93;
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 44px;
+}
+
+.contacts_wrapper {
+    height: 343px;
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+
+
+}
+
+.cover {
+    margin: 0 10px;
+
+}
+
+.contacts_infoBlock {
+    width: 70vw;
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 77px;
+    margin-top: 25px;
+
+
+}
+
+.contacts_same {
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.contacts_line {
+    width: 264px;
+    height: 0px;
+    border: 1px solid #202846;
+    margin-top: -20px;
+}
+
+.contacts_map {
+    width: 499px;
+    height: 290px;
+    border-radius: 40px;
+    order: 999;
+    margin-left: auto;
+}
+
+.contacts_same {
+    margin-top: 10px;
+}
+
+.contacts__maile {
+    float: left;
+}
+
+/* ------footer----- */
+.footer {
+    height: 65px;
+    width: 100%;
+    background-color: #243B93;
+    display: flex;
+       
+}
+
+.footer__text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding-left: 196px;    
+}
